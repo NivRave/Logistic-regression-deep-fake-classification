@@ -17,6 +17,9 @@ algorithms and optimization functions.</br>
 The last cells contain the concrete model's implementation and import/export functions to fasten and ease the</br>
 model's handling.</br>
 </br>
+<b>Regarding the data processing, we performed the following actions (in order):</b></br>
+read and input data using open-cv <b>-></b> activate fft, fftshift on each image <b>-></b> calculate the azimuthal average of each image <b>-></b> normalize</br>
+</br>
 <b>Regarding the model itself and the ways to initialize the model, we suggest 4 options:</b></br>
 1. Complete learning using pre-defined (optimal and efficient values we found) learning rate and iterations.</br>
 2. Complete learning with an algorithm to find the optimal learning rate and iterations.</br>
