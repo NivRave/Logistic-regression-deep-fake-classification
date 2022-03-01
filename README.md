@@ -1,4 +1,4 @@
-# Logistic-regression-deep-fake-classification
+# Logistic regression deep fake classification
 A Logistic regression model built from scratch that classifies input images as real/fake with high accuracy
 <h2>Readme</h2>
 The following project is our implementation of the Logistic Regression classification with Gradient Descent model.</br>
